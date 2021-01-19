@@ -29,7 +29,7 @@
 export default {
   name: 'App',
   data () {
-    console.log(process.env.VUE_APP_API_KEY)
+    document.title = 'Vue Weather App'
     return {
       API_KEY: process.env.VUE_APP_API_KEY,
       URL_BASE: process.env.VUE_APP_URL_BASE,
